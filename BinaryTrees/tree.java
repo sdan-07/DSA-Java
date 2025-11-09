@@ -118,14 +118,17 @@ public class tree{
         tree.insert(12);
         tree.insert(97);
 
-//        tree.Inorder();
-//        System.out.println();
-//
-//        tree.preorder();
-//        System.out.println();
-//
-//        tree.postorder();
+        System.out.println("\nInorder:");
+        tree.Inorder();
         System.out.println();
+
+        System.out.println("\nPreorder:");
+        tree.preorder();
+        System.out.println();
+
+        System.out.println("\nPostorder:");
+        tree.postorder();
+        System.out.println("\n\nLevel Order Traversal:");
 
         tree.levelOrder();
     }
